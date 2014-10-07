@@ -2,6 +2,6 @@
 using namespace CalculatorStack;
 int main(){
 	//main_binary();
-	main_calculator();
+	BinarySearchTree::main_bst();
 	return 0;
 }

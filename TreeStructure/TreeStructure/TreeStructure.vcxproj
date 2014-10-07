@@ -76,10 +76,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="CalculatorStack.cpp" />
     <ClCompile Include="LCRSTree.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RedBlackTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GlobalHeader.h" />

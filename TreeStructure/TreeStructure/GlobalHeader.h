@@ -8,3 +8,6 @@ namespace BinaryTree{
 namespace CalculatorStack{
 	int main_calculator();
 }
+namespace BinarySearchTree{
+	int main_bst();
+}

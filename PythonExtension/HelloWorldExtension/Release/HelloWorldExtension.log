@@ -1,0 +1,17 @@
+﻿빌드 시작: 2014-09-29 오전 1:14:17
+     1>2 노드의 "D:\algorithmchangwon\PythonExtension\HelloWorldExtension\HelloWorldExtension.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HELLOWORLDEXTENSION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\python27\include\pymath.h(22): warning C4273: 'round' : dll 링크가 일치하지 않습니다.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\math.h(516) : 'round'의 이전 정의를 참조하십시오.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\algorithmchangwon\PythonExtension\Release\HelloWorldExtension.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\algorithmchangwon\PythonExtension\Release\HelloWorldExtension.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\algorithmchangwon\PythonExtension\Release\HelloWorldExtension.lib" /MACHINE:X86 /SAFESEH /DLL Release\main.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         HelloWorldExtension.vcxproj -> D:\algorithmchangwon\PythonExtension\Release\HelloWorldExtension.dll
+     1>"D:\algorithmchangwon\PythonExtension\HelloWorldExtension\HelloWorldExtension.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.26
