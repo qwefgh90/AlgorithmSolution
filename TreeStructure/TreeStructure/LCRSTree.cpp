@@ -13,7 +13,7 @@ void printTree(pNode node, int depth);
 void destroyNode(pNode root);
 void printNodesAtLevel(pNode, int);
 
-int main_LCRS(){
+int main(){
 	//pNode root = createNode(88);
 	//appendChildNode(root, createNode(90));
 	//appendChildNode(root, createNode(80));

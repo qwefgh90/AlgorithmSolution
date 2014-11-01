@@ -6,7 +6,7 @@
 
 namespace BinarySearchTree
 {
-	typedef char ElementType;
+	typedef int ElementType;
 	/*
 	노드 선언
 	*/
@@ -26,7 +26,7 @@ namespace BinarySearchTree
 	int deleteNode(pNode *node, ElementType data);
 	pNode searchNode(pNode node, ElementType data);
 	void printBST(Node* root);
-	int main_bst(){
+	int main(){
 		pNode root = createNode(20);
 		appendNode(root, createNode(30));
 		appendNode(root, createNode(10));

@@ -1,13 +1,16 @@
 
 namespace LCRSTree{
-	int main_LCRS();
+	int main();
 }
 namespace BinaryTree{
-	int main_binary();
+	int main();
 }
 namespace CalculatorStack{
-	int main_calculator();
+	int main();
 }
 namespace BinarySearchTree{
-	int main_bst();
+	int main();
+}
+namespace RedBlackTree{
+	int main();
 }

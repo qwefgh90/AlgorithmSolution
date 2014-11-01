@@ -21,7 +21,7 @@ namespace CalculatorStack{
 	Stack getPostfixFromExpr(Stack expr);	
 	Node peek(Stack& stack);
 	int getResultFromPostFix(Stack postfix);
-	int main_calculator(){
+	int main(){
 		int expression_index = 0;
 		char expression[255] = "2*2/4";
 		

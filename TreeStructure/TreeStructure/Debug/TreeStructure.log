@@ -1,18 +1,5 @@
-﻿빌드 시작: 2014-09-15 오후 12:16:05
-     1>2 노드의 "D:\algorithmchangwon\TreeStructure\TreeStructure\TreeStructure.vcxproj" 프로젝트(Build 대상)입니다.
-     1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BinarySearchTree.cpp
-         BinarySearchTree.cpp
-       Link:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\algorithmchangwon\TreeStructure\Debug\TreeStructure.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\algorithmchangwon\TreeStructure\Debug\TreeStructure.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\algorithmchangwon\TreeStructure\Debug\TreeStructure.lib" /MACHINE:X86 Debug\BinarySearchTree.obj
-         Debug\BinaryTree.obj
-         Debug\CalculatorStack.obj
-         Debug\LCRSTree.obj
-         Debug\main.obj
-         Debug\RedBlackTree.obj
-         TreeStructure.vcxproj -> D:\algorithmchangwon\TreeStructure\Debug\TreeStructure.exe
-     1>"D:\algorithmchangwon\TreeStructure\TreeStructure\TreeStructure.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+﻿빌드 시작: 2014-11-02 오전 2:34:26
 
 빌드했습니다.
 
-경과 시간: 00:00:00.71
+경과 시간: 00:00:00.06

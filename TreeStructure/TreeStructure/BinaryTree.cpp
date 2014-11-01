@@ -18,7 +18,7 @@ namespace BinaryTree{
 	void printPreOrder(pNode root);
 	void printInOrder(pNode root);
 	void printPostOrder(pNode root);
-	int main_binary(){
+	int main(){
 		pNode root = createNode('A');
 		pNode B = createNode('B');
 		pNode C = createNode('C');
