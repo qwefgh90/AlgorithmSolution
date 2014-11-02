@@ -1,17 +1,10 @@
-
-namespace LCRSTree{
-	int main();
-}
-namespace BinaryTree{
-	int main();
-}
-namespace CalculatorStack{
-	int main();
-}
-namespace BinarySearchTree{
-	int main();
-}
-namespace RedBlackTree{
+#include <stdio.h>
+#include <stdlib.h>
+#include <memory.h>
+#include <string.h>
+#include <queue>
+#include <stack>
+namespace RedBlackTree {
 	typedef int KeyType;
 	typedef void* DataPtr;
 	typedef enum { LEFT, RIGHT }Direction;
@@ -42,9 +35,11 @@ namespace RedBlackTree{
 	void removeNode(Tree& tree, KeyType data, void (*destructor) (DataPtr dataPtr));
 	void rotateLeft(Tree& tree, pNode parent);
 	void rotateRight(Tree& tree, pNode parent);
-	DataPtr searchNode(Tree& tree, KeyType key);
 	void destroyTree(Tree& tree, void (*destructor) (DataPtr dataPtr));
-
+	DataPtr searchNode(Tree& tree, KeyType key);
+	
+	void init();
+	
 	void printBST(Node* root);
 	void tcase1();
 	void tcase2();

@@ -61,6 +61,9 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>copy ..\Debug\changext.pyd ..\..\PythonExtensionCompare</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -78,14 +81,26 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
+    <PostBuildEvent>
+      <Command>dir</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="py_algorithm.cpp" />
+    <ClCompile Include="py_rbtree.cpp" />
+    <ClCompile Include="py_util.cpp" />
+    <ClCompile Include="rbtree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithm.h" />
     <ClInclude Include="include.h" />
+    <ClInclude Include="py_algorithm.h" />
+    <ClInclude Include="py_include.h" />
+    <ClInclude Include="py_rbtree.h" />
+    <ClInclude Include="py_util.h" />
+    <ClInclude Include="rbtree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

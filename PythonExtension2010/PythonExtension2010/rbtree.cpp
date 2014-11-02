@@ -1,14 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <memory.h>
-#include <string.h>
-#include <queue>
-#include <stack>
-#include "GlobalHeader.h"
+#include "rbtree.h"
 
 namespace RedBlackTree{
 
 	pNode Nil = NULL;
+	
+	void init()
+	{
+		Nil = createNode(0, NULL);
+		Nil->color = BLACK;
+	}
+
 	void rotateLeft(Tree& tree, pNode parent)
 	{
 		if (parent->parent != NULL && parent->right != NULL){
@@ -430,7 +431,7 @@ namespace RedBlackTree{
 			}
 		}
 	}
-	
+
 	void destroyTree(Tree& tree, void (*destructor) (DataPtr dataPtr))
 	{
 		if(NULL != tree.root) {
@@ -463,8 +464,7 @@ namespace RedBlackTree{
 					}
 			}
 			tree.root = NULL;
-		}
-		
+		}		
 	}
 	
 	DataPtr searchNode(Tree& tree, KeyType key)
@@ -482,7 +482,6 @@ namespace RedBlackTree{
 		}
 		return NULL;
 	}
-
 
 	void printBST(Node* root){
 		printf("===================\n");
@@ -530,12 +529,12 @@ namespace RedBlackTree{
 	{
 		Nil = createNode(0, NULL);
 		Nil->color = BLACK;
-		//tcase1();
+		tcase1();
 		tcase2();
-		/*tcase3();
+		tcase3();
 		tcase4();
 		tcase5();
-		*/return 0;
+		return 0;
 	}
 
 	/* BST 유닛 테스트*/
@@ -629,7 +628,6 @@ namespace RedBlackTree{
 		printBST(tree.root);
 	}
 	/* 노드 11개 추가하는 케이스 검정 갯수 체크 */
-	/* 트리 제거 및 데이터 검색 */
 	void tcase2()
 	{
 		Tree tree;
@@ -646,7 +644,5 @@ namespace RedBlackTree{
 		appendNode(tree, createNode(155, NULL));
 		appendNode(tree, createNode(156, NULL));
 		printBST(tree.root);
-		searchNode(tree,156);
-		destroyTree(tree,NULL);
 	}
 }
