@@ -15,28 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HOTSUMMER.cpp">
+    <ClCompile Include="서로소.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BRACKETS2.cpp">
+    <ClCompile Include="웃음바이러스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NQUEEN.cpp">
+    <ClCompile Include="우표.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="RATIO.cpp">
+    <ClCompile Include="우표백업.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="COINS.cpp">
+    <ClCompile Include="리모델링.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SENTENCE.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="TREASURE%28미완%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SUSHI.cpp">
+    <ClCompile Include="행성점령.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

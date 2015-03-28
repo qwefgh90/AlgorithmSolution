@@ -18,5 +18,8 @@
     <ClCompile Include="stl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="kmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

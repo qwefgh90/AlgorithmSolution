@@ -99,5 +99,17 @@
     <ClCompile Include="main1_소수판별.cpp">
       <Filter>소스 파일2</Filter>
     </ClCompile>
+    <ClCompile Include="main2_최대공약수.cpp">
+      <Filter>소스 파일2</Filter>
+    </ClCompile>
+    <ClCompile Include="main3_페리카최대최소.cpp">
+      <Filter>소스 파일2</Filter>
+    </ClCompile>
+    <ClCompile Include="main4_떡먹는호랑이.cpp">
+      <Filter>소스 파일2</Filter>
+    </ClCompile>
+    <ClCompile Include="main5_좁은길.cpp">
+      <Filter>소스 파일2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

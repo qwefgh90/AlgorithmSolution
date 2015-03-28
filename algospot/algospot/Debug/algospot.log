@@ -1,19 +1,15 @@
-﻿빌드 시작: 2015-02-07 오후 8:39:06
+﻿빌드 시작: 2015-03-26 오전 1:54:22
      1>2 노드의 "D:\AlgorithmSolution\algospot\algospot\algospot.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt COINS.cpp
-         COINS.cpp
-     1>d:\algorithmsolution\algospot\algospot\coins.cpp(12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
-     1>d:\algorithmsolution\algospot\algospot\coins.cpp(16): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
-     1>d:\algorithmsolution\algospot\algospot\coins.cpp(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
-       Link:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AlgorithmSolution\algospot\Debug\algospot.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\AlgorithmSolution\algospot\Debug\algospot.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AlgorithmSolution\algospot\Debug\algospot.lib" /MACHINE:X86 Debug\COINS.obj
-         algospot.vcxproj -> D:\AlgorithmSolution\algospot\Debug\algospot.exe
-     1>"D:\AlgorithmSolution\algospot\algospot\algospot.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TREASURE.cpp
+         TREASURE.cpp
+     1>d:\algorithmsolution\algospot\algospot\treasure.cpp(17): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(341,5): error MSB6006: "CL.exe"이(가) 종료되었습니다(코드: 2).
+     1>d:\algorithmsolution\algospot\algospot\treasure.cpp(69): error C2084: 'bool checkRect(Point,Point,double,double,double,Point &)' 함수에 이미 본문이 있습니다.
+                 d:\algorithmsolution\algospot\algospot\treasure.cpp(14) : 'checkRect'의 이전 정의를 참조하십시오.
+     1>d:\algorithmsolution\algospot\algospot\treasure.cpp(72): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>"D:\AlgorithmSolution\algospot\algospot\algospot.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
 
-빌드했습니다.
+빌드하지 못했습니다.
 
-경과 시간: 00:00:00.27
+경과 시간: 00:00:01.58

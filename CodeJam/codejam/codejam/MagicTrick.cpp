@@ -6,7 +6,7 @@
 int main(){
 	int testcase;
 	scanf("%d",&testcase);
-
+	FILE* f = fopen("output.txt", "w");
 	for(int k = 0 ; k < testcase ; k++){
 		int userSay;
 		int userSay2;
@@ -51,16 +51,17 @@ int main(){
 				}
 			}
 		}
-
+		char result[200] = { 0, };
 		if(count > 1)
-			printf("Case #%d: %s\n", k+1, "Bad magician!");
+			sprintf(result, "Case #%d: %s\n", k + 1, "Bad magician!");
 		else if(count == 1)
-			printf("Case #%d: %d\n", k+1, answer);
+			sprintf(result, "Case #%d: %d\n", k + 1, answer);
 		else
-			printf("Case #%d: %s\n", k+1, "Volunteer cheated!");
+			sprintf(result, "Case #%d: %s\n", k + 1, "Volunteer cheated!");
 
+		fprintf(f, result);
 	}
-
+	fclose(f);
 
 	return 0;
 }

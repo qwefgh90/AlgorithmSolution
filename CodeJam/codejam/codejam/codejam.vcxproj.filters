@@ -15,29 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HOTSUMMER.cpp">
+    <ClCompile Include="CookieClickerAlpha.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BRACKETS2.cpp">
+    <ClCompile Include="MagicTrick.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NQUEEN.cpp">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CookieClickerAlpha_input1.txt">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RATIO.cpp">
+    </Text>
+    <Text Include="CookieClickerAlpha_input2.txt">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="COINS.cpp">
+    </Text>
+    <Text Include="MagicTrick.txt">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SENTENCE.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="TREASURE%28미완%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SUSHI.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    </Text>
   </ItemGroup>
 </Project>
