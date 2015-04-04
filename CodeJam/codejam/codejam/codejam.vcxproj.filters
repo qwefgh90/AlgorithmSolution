@@ -13,12 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{1a515020-f84d-4f91-818c-1f3535c1688b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CookieClickerAlpha.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="MagicTrick.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MinesweeperMaster.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DeceitfulWar.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -28,14 +37,23 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="CookieClickerAlpha_input1.txt">
-      <Filter>소스 파일</Filter>
+    <Text Include="MagicTrick.txt">
+      <Filter>Input</Filter>
     </Text>
     <Text Include="CookieClickerAlpha_input2.txt">
-      <Filter>소스 파일</Filter>
+      <Filter>Input</Filter>
     </Text>
-    <Text Include="MagicTrick.txt">
-      <Filter>소스 파일</Filter>
+    <Text Include="CookieClickerAlpha_input1.txt">
+      <Filter>Input</Filter>
+    </Text>
+    <Text Include="MinesChangTest.txt">
+      <Filter>Input</Filter>
+    </Text>
+    <Text Include="DeceitfulWarInput_.txt">
+      <Filter>Input</Filter>
+    </Text>
+    <Text Include="DeceitfulWarInput2.txt">
+      <Filter>Input</Filter>
     </Text>
   </ItemGroup>
 </Project>

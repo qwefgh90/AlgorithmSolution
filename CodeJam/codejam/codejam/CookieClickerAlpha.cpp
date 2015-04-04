@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <memory.h>
 #include <math.h>
-
+//https://code.google.com/codejam/contest/2974486/dashboard
 struct State{
 	double ratio;		//생산 능력
 	double factoryTime;	//공장 짓는 시간

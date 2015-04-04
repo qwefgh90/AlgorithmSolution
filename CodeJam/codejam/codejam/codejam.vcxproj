@@ -79,7 +79,15 @@
     <ClCompile Include="CookieClickerAlpha.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="MagicTrick.cpp" />
+    <ClCompile Include="DeceitfulWar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="MagicTrick.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="MinesweeperMaster.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
@@ -87,7 +95,10 @@
   <ItemGroup>
     <Text Include="CookieClickerAlpha_input1.txt" />
     <Text Include="CookieClickerAlpha_input2.txt" />
+    <Text Include="DeceitfulWarInput2.txt" />
+    <Text Include="DeceitfulWarInput_.txt" />
     <Text Include="MagicTrick.txt" />
+    <Text Include="MinesChangTest.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
