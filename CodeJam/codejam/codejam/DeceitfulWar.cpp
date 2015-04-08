@@ -3,7 +3,7 @@
 #include <memory.h>
 //https://code.google.com/codejam/contest/dashboard?c=2974486#s=p3&a=3
 
-//속여서 이기는 법 Deceitful War
+//속여서 이기는 법 Deceitful War (least upper bound 구하기 문제) 
 //1)A의 블록과 B의 블록을 오름차순으로 정렬한다.(양방향 큐 정렬)
 //2)A에서 하나를 뽑아서 B의 의 가장 작은 값보다 작다면 A의 가장 큰값에 근사한 값으로 바꾼뒤(속여서) 큰 값을 소비하도록 한다.
 //3)B의 가장 작은 값보다 크다면 가장 큰값으로 바꿔서(속여서) B가 이기지 못하도록 한다.
@@ -16,6 +16,8 @@
 //3)없다면 가장 작은 값을 준다.
 //
 //우선순위 큐 배열 1개
+
+//
 #define QSIZE 2000
 struct queue{
 	double data[QSIZE];

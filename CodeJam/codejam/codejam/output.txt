@@ -1,50 +1,100 @@
-Case #1: 4 1
-Case #2: 236 16
-Case #3: 976 43
-Case #4: 948 18
-Case #5: 965 31
-Case #6: 888 29
-Case #7: 1000 1000
-Case #8: 230 230
-Case #9: 0 0
-Case #10: 656 656
-Case #11: 346 10
-Case #12: 944 13
-Case #13: 978 35
-Case #14: 841 36
-Case #15: 310 13
-Case #16: 0 0
-Case #17: 964 20
-Case #18: 149 12
-Case #19: 661 19
-Case #20: 969 20
-Case #21: 0 0
-Case #22: 0 0
-Case #23: 352 35
-Case #24: 982 42
-Case #25: 256 6
-Case #26: 991 45
-Case #27: 0 0
-Case #28: 114 11
-Case #29: 144 2
-Case #30: 0 0
-Case #31: 821 821
-Case #32: 756 31
-Case #33: 962 25
-Case #34: 992 49
-Case #35: 879 35
-Case #36: 243 4
-Case #37: 786 26
-Case #38: 966 10
-Case #39: 0 0
-Case #40: 148 16
-Case #41: 948 6
-Case #42: 0 0
-Case #43: 676 676
-Case #44: 202 12
-Case #45: 953 13
-Case #46: 67 7
-Case #47: 689 30
-Case #48: 985 27
-Case #49: 964 29
-Case #50: 954 24
+Case #1: 12
+Case #2: 8
+Case #3: 6
+Case #4: 10
+Case #5: 6
+Case #6: 6
+Case #7: 8
+Case #8: 8
+Case #9: 4
+Case #10: 4
+Case #11: 6
+Case #12: 6
+Case #13: 6
+Case #14: 10
+Case #15: 8
+Case #16: 6
+Case #17: 2
+Case #18: 4
+Case #19: 6
+Case #20: 4
+Case #21: 0
+Case #22: 6
+Case #23: 8
+Case #24: 1
+Case #25: 2
+Case #26: 10
+Case #27: 8
+Case #28: 0
+Case #29: 4
+Case #30: 8
+Case #31: 4
+Case #32: 4
+Case #33: 6
+Case #34: 4
+Case #35: 4
+Case #36: 8
+Case #37: 4
+Case #38: 6
+Case #39: 6
+Case #40: 2
+Case #41: 6
+Case #42: 8
+Case #43: 8
+Case #44: 4
+Case #45: 6
+Case #46: 6
+Case #47: 8
+Case #48: 12
+Case #49: 2
+Case #50: 2
+Case #51: 4
+Case #52: 6
+Case #53: 12
+Case #54: 2
+Case #55: 8
+Case #56: 8
+Case #57: 1
+Case #58: 3
+Case #59: 10
+Case #60: 8
+Case #61: 0
+Case #62: 10
+Case #63: 8
+Case #64: 8
+Case #65: 6
+Case #66: 8
+Case #67: 2
+Case #68: 6
+Case #69: 8
+Case #70: 4
+Case #71: 6
+Case #72: 8
+Case #73: 8
+Case #74: 6
+Case #75: 6
+Case #76: 6
+Case #77: 4
+Case #78: 8
+Case #79: 1
+Case #80: 6
+Case #81: 8
+Case #82: 8
+Case #83: 8
+Case #84: 4
+Case #85: 4
+Case #86: 3
+Case #87: 4
+Case #88: 8
+Case #89: 4
+Case #90: 8
+Case #91: 3
+Case #92: 2
+Case #93: 10
+Case #94: 6
+Case #95: 4
+Case #96: 8
+Case #97: 6
+Case #98: 4
+Case #99: 4
+Case #100: 1

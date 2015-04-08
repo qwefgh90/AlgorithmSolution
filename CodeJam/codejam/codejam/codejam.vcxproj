@@ -76,16 +76,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChargingChaos.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="CookieClickerAlpha.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="DeceitfulWar.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="FullBinaryTree.cpp" />
     <ClCompile Include="MagicTrick.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="MinesweeperMaster.cpp">
+    <ClCompile Include="MinesweeperMaster_못품.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ChargingChaos_성수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
@@ -93,12 +100,16 @@
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="ChargingChaosLargeInput.txt" />
     <Text Include="CookieClickerAlpha_input1.txt" />
     <Text Include="CookieClickerAlpha_input2.txt" />
     <Text Include="DeceitfulWarInput2.txt" />
     <Text Include="DeceitfulWarInput_.txt" />
+    <Text Include="FullBinaryTreeLargeInput.txt" />
     <Text Include="MagicTrick.txt" />
     <Text Include="MinesChangTest.txt" />
+    <Text Include="ChargingChaosSmallInput.txt" />
+    <Text Include="FullBinaryTreeSmallInput.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
