@@ -13,19 +13,28 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="SubRound1">
+      <UniqueIdentifier>{a7fc2bbb-1c6a-4481-a278-3f175bc31118}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StandingOvation.cpp">
+    <ClCompile Include="Dijkstra.cpp">
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="InfiniteHouseofPancakes.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="Dijkstra.cpp">
-      <Filter>source</Filter>
-    </ClCompile>
     <ClCompile Include="OminousOmino.cpp">
       <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StandingOvation.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Haircut_fail.cpp">
+      <Filter>SubRound1</Filter>
+    </ClCompile>
+    <ClCompile Include="MushroomMonster.cpp">
+      <Filter>SubRound1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -42,6 +51,15 @@
       <Filter>input</Filter>
     </Text>
     <Text Include="DijkstraSmall.txt">
+      <Filter>input</Filter>
+    </Text>
+    <Text Include="MushroomMonsterSmallInput.txt">
+      <Filter>input</Filter>
+    </Text>
+    <Text Include="MushroomMonsterLargeInput.txt">
+      <Filter>input</Filter>
+    </Text>
+    <Text Include="HaircutSmallInput.txt">
       <Filter>input</Filter>
     </Text>
   </ItemGroup>

@@ -82,17 +82,28 @@
     <ClCompile Include="InfiniteHouseofPancakes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="MushroomMonster.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="StandingOvation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="OminousOmino.cpp" />
+    <ClCompile Include="OminousOmino.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Haircut_fail.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="MushroomMonsterSmallInput.txt" />
     <Text Include="StandingOvationSmall.txt" />
     <Text Include="StandingOvationLarge.txt" />
     <Text Include="InfiniteHouseofPancakesSmall.txt" />
     <Text Include="InfiniteHouseofPancakesLarge.txt" />
     <Text Include="DijkstraSmall.txt" />
+    <Text Include="MushroomMonsterLargeInput.txt" />
+    <Text Include="HaircutSmallInput.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
