@@ -111,5 +111,8 @@
     <ClCompile Include="main5_좁은길.cpp">
       <Filter>소스 파일2</Filter>
     </ClCompile>
+    <ClCompile Include="main6_소들의합.cpp">
+      <Filter>소스 파일2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
