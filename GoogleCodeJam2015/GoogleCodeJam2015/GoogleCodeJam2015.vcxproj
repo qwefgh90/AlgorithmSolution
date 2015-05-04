@@ -94,6 +94,13 @@
     <ClCompile Include="Haircut_fail.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="소스1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="소스2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="MushroomMonsterSmallInput.txt" />
@@ -104,6 +111,10 @@
     <Text Include="DijkstraSmall.txt" />
     <Text Include="MushroomMonsterLargeInput.txt" />
     <Text Include="HaircutSmallInput.txt" />
+    <Text Include="Text.txt" />
+    <Text Include="Text1.txt" />
+    <Text Include="Text2.txt" />
+    <Text Include="Text3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

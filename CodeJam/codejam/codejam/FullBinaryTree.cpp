@@ -167,7 +167,7 @@ int getDeleteCount(Vert* vert, TableItem(*table)[MAX], int rootIndex){
 
 TableItem table[MAX][MAX];
 int main(){
-	FILE* input = fopen("FullBinaryTreeSmallInput.txt", "r");
+	FILE* input = fopen("FullBinaryTreeLargeInput.txt", "r");
 	FILE* output = fopen("output.txt", "w");
 	int testcase;
 	fscanf(input,"%d", &testcase);

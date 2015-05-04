@@ -11,11 +11,11 @@
     <Filter Include="gcj_round1a_2014">
       <UniqueIdentifier>{64f8e262-bbb3-4ebe-a5fa-b6a3a9538713}</UniqueIdentifier>
     </Filter>
-    <Filter Include="gcj_qualification_round_2014_input">
-      <UniqueIdentifier>{1a515020-f84d-4f91-818c-1f3535c1688b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="gcj_round1a_2014_input">
       <UniqueIdentifier>{545d3bd5-5e09-4704-9a56-df1e923a2c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gcj_qualification_round_2014_input">
+      <UniqueIdentifier>{1a515020-f84d-4f91-818c-1f3535c1688b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -38,6 +38,12 @@
       <Filter>gcj_round1a_2014</Filter>
     </ClCompile>
     <ClCompile Include="ChargingChaos_성수.cpp">
+      <Filter>gcj_round1a_2014</Filter>
+    </ClCompile>
+    <ClCompile Include="FullBinaryTree_150502.cpp">
+      <Filter>gcj_round1a_2014</Filter>
+    </ClCompile>
+    <ClCompile Include="FullBinaryTree_Quadratic.cpp">
       <Filter>gcj_round1a_2014</Filter>
     </ClCompile>
   </ItemGroup>

@@ -16,6 +16,9 @@
     <Filter Include="SubRound1">
       <UniqueIdentifier>{a7fc2bbb-1c6a-4481-a278-3f175bc31118}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SubRound2">
+      <UniqueIdentifier>{ae8d6086-b9e2-4e23-b1ac-1348257cf3d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dijkstra.cpp">
@@ -35,6 +38,15 @@
     </ClCompile>
     <ClCompile Include="MushroomMonster.cpp">
       <Filter>SubRound1</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>SubRound2</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
+      <Filter>SubRound2</Filter>
+    </ClCompile>
+    <ClCompile Include="소스2.cpp">
+      <Filter>SubRound2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +72,18 @@
       <Filter>input</Filter>
     </Text>
     <Text Include="HaircutSmallInput.txt">
+      <Filter>input</Filter>
+    </Text>
+    <Text Include="Text.txt">
+      <Filter>input</Filter>
+    </Text>
+    <Text Include="Text1.txt">
+      <Filter>input</Filter>
+    </Text>
+    <Text Include="Text2.txt">
+      <Filter>input</Filter>
+    </Text>
+    <Text Include="Text3.txt">
       <Filter>input</Filter>
     </Text>
   </ItemGroup>
