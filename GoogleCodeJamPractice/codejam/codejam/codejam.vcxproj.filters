@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="gcj_qualification_round_2014">
+      <UniqueIdentifier>{29930ffa-7437-42fc-adc3-2645029d7483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gcj_round1a_2014">
+      <UniqueIdentifier>{64f8e262-bbb3-4ebe-a5fa-b6a3a9538713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gcj_round1a_2014_input">
+      <UniqueIdentifier>{545d3bd5-5e09-4704-9a56-df1e923a2c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gcj_qualification_round_2014_input">
+      <UniqueIdentifier>{1a515020-f84d-4f91-818c-1f3535c1688b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CookieClickerAlpha.cpp">
+      <Filter>gcj_qualification_round_2014</Filter>
+    </ClCompile>
+    <ClCompile Include="DeceitfulWar.cpp">
+      <Filter>gcj_qualification_round_2014</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicTrick.cpp">
+      <Filter>gcj_qualification_round_2014</Filter>
+    </ClCompile>
+    <ClCompile Include="MinesweeperMaster_못품.cpp">
+      <Filter>gcj_qualification_round_2014</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargingChaos.cpp">
+      <Filter>gcj_round1a_2014</Filter>
+    </ClCompile>
+    <ClCompile Include="FullBinaryTree.cpp">
+      <Filter>gcj_round1a_2014</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargingChaos_성수.cpp">
+      <Filter>gcj_round1a_2014</Filter>
+    </ClCompile>
+    <ClCompile Include="FullBinaryTree_150502.cpp">
+      <Filter>gcj_round1a_2014</Filter>
+    </ClCompile>
+    <ClCompile Include="FullBinaryTree_Quadratic.cpp">
+      <Filter>gcj_round1a_2014</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="MagicTrick.txt">
+      <Filter>gcj_qualification_round_2014_input</Filter>
+    </Text>
+    <Text Include="CookieClickerAlpha_input2.txt">
+      <Filter>gcj_qualification_round_2014_input</Filter>
+    </Text>
+    <Text Include="CookieClickerAlpha_input1.txt">
+      <Filter>gcj_qualification_round_2014_input</Filter>
+    </Text>
+    <Text Include="MinesChangTest.txt">
+      <Filter>gcj_qualification_round_2014_input</Filter>
+    </Text>
+    <Text Include="DeceitfulWarInput_.txt">
+      <Filter>gcj_qualification_round_2014_input</Filter>
+    </Text>
+    <Text Include="DeceitfulWarInput2.txt">
+      <Filter>gcj_qualification_round_2014_input</Filter>
+    </Text>
+    <Text Include="ChargingChaosLargeInput.txt">
+      <Filter>gcj_round1a_2014_input</Filter>
+    </Text>
+    <Text Include="ChargingChaosSmallInput.txt">
+      <Filter>gcj_round1a_2014_input</Filter>
+    </Text>
+    <Text Include="FullBinaryTreeSmallInput.txt">
+      <Filter>gcj_round1a_2014_input</Filter>
+    </Text>
+    <Text Include="FullBinaryTreeLargeInput.txt">
+      <Filter>gcj_round1a_2014_input</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
