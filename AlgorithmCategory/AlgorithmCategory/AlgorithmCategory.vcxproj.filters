@@ -1,17 +1,146 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="구현">
+      <UniqueIdentifier>{9c871990-aab0-43c6-b515-3c888e412fd3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="동적계획법">
+      <UniqueIdentifier>{6b3b06e1-d415-4883-a496-720ded061579}</UniqueIdentifier>
     </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="그래프">
+      <UniqueIdentifier>{2e93083e-2f0a-43c7-bc8a-744d69511412}</UniqueIdentifier>
     </Filter>
+    <Filter Include="수학">
+      <UniqueIdentifier>{8ad2da92-5b85-4134-bcf5-d3339321f626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="비트">
+      <UniqueIdentifier>{60a6c904-df58-489b-b6b3-60cb31ed03d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="그리디">
+      <UniqueIdentifier>{822fc2cf-9f90-43cd-8c6a-56b9aa84f26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="탐색">
+      <UniqueIdentifier>{6730841e-161e-468c-8380-08c1fc9c94a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기하">
+      <UniqueIdentifier>{35c5abcf-bbce-4a6b-a5e6-1bc2dad3f26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="문자열">
+      <UniqueIdentifier>{85100c11-9c26-4222-bceb-4c68a1d15e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="복합">
+      <UniqueIdentifier>{d8db915c-21b6-4826-a30b-240c7077703c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백트랙킹">
+      <UniqueIdentifier>{93537257-f093-46a5-8f4e-06062b7d0a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INPUT">
+      <UniqueIdentifier>{947ed604-6ecd-451f-b3c4-f23d3572a7a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BRACKETS2.cpp">
+      <Filter>구현</Filter>
+    </ClCompile>
+    <ClCompile Include="ENDIANS.cpp">
+      <Filter>구현</Filter>
+    </ClCompile>
+    <ClCompile Include="HELLOWORLD.cpp">
+      <Filter>구현</Filter>
+    </ClCompile>
+    <ClCompile Include="HOTSUMMER.cpp">
+      <Filter>구현</Filter>
+    </ClCompile>
+    <ClCompile Include="NQUEEN.cpp">
+      <Filter>탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="RATIO.cpp">
+      <Filter>탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="WEEKLYCALENDAR.cpp">
+      <Filter>구현</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\COINS\COINS\COINS\coin.cpp">
+      <Filter>동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="SENTENCE.cpp">
+      <Filter>구현</Filter>
+    </ClCompile>
+    <ClCompile Include="SUSHI.cpp">
+      <Filter>동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="TREASURE(미완).cpp">
+      <Filter>기하</Filter>
+    </ClCompile>
+    <ClCompile Include="소수판별.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="최대공약수.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="페리카최대최소.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="떡먹는호랑이.cpp">
+      <Filter>동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="좁은길.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="배낭.cpp">
+      <Filter>동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="문자제거.cpp">
+      <Filter>문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="약수.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="luckynum.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자바꾸기.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="유일문자판정_시스템이상.cpp">
+      <Filter>문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="선긋기.cpp">
+      <Filter>기하</Filter>
+    </ClCompile>
+    <ClCompile Include="양팔저울.cpp">
+      <Filter>동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="dummy.cpp" />
+    <ClCompile Include="cracking_문자열압축.cpp">
+      <Filter>문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="cracking_유일성검사.cpp">
+      <Filter>문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="cracking_행렬회전.cpp">
+      <Filter>문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="cracking_0일경우_행렬0으로처리.cpp">
+      <Filter>문자열</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dummy.txt" />
+    <Text Include="cracking_유일성검사.txt">
+      <Filter>문자열</Filter>
+    </Text>
+    <Text Include="cracking_문자열압축.txt">
+      <Filter>문자열</Filter>
+    </Text>
+    <Text Include="cracking_행렬회전.txt">
+      <Filter>문자열</Filter>
+    </Text>
+    <Text Include="cracking_0일경우_행렬0으로처리.txt">
+      <Filter>문자열</Filter>
+    </Text>
   </ItemGroup>
 </Project>
