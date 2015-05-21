@@ -37,6 +37,9 @@
     <Filter Include="INPUT">
       <UniqueIdentifier>{947ed604-6ecd-451f-b3c4-f23d3572a7a5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="정렬">
+      <UniqueIdentifier>{9034b816-004c-40d5-bdf8-8bbbd80b7cdf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BRACKETS2.cpp">
@@ -127,6 +130,21 @@
     <ClCompile Include="cracking_0일경우_행렬0으로처리.cpp">
       <Filter>문자열</Filter>
     </ClCompile>
+    <ClCompile Include="cracking_정렬된배열병합.cpp">
+      <Filter>정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="cracking_철자만바꾼문자열인접정렬.cpp">
+      <Filter>정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="백준_미로탐색.cpp">
+      <Filter>탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="prim.cpp">
+      <Filter>그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="다익스트라.cpp">
+      <Filter>그래프</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="dummy.txt" />
@@ -141,6 +159,21 @@
     </Text>
     <Text Include="cracking_0일경우_행렬0으로처리.txt">
       <Filter>문자열</Filter>
+    </Text>
+    <Text Include="cracking_정렬된배열병합.txt">
+      <Filter>정렬</Filter>
+    </Text>
+    <Text Include="cracking_철자만바꾼문자열인접정렬.txt">
+      <Filter>정렬</Filter>
+    </Text>
+    <Text Include="백준_미로찾기.txt">
+      <Filter>탐색</Filter>
+    </Text>
+    <Text Include="prim.txt">
+      <Filter>그래프</Filter>
+    </Text>
+    <Text Include="다익스트라.txt">
+      <Filter>그래프</Filter>
     </Text>
   </ItemGroup>
 </Project>
