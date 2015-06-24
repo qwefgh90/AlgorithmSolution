@@ -1,36 +1,72 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-/*
-문제 풀이 내기에서 모인 벌금이 많이 쌓여서 알고스팟 운영진들은 회식을 하러 회전초밥집에 갔습니다. 회전초밥집에 들어선 운영진들은 초밥은 먹지 않고 전략 회의를 시작했습니다. 회전초밥집에는 n종류의 메뉴가 있는데, 운영진들은 각 메뉴에 대해 선호도를 매겼습니다.
+#include <string>
+#include <iostream>
+#include <algorithm>
+using namespace std;
 
-초밥	계란	연어	장어	대뱃살	스테이크	후라이드 치킨
-가격	2500	3000	4000	5000	10000	15000
-선호도	7	9	10	12	20	1
-운영진들은 주어진 예산 안에서 선호도의 합을 최대한으로 하도록 초밥을 먹고 싶습니다. 각 종류의 초밥은 무한정으로 공급된다고 가정합시다. 이 때 얻을 수 있는 최대한의 선호도는 얼마일까요?
+class Menu{
+public:
+	int price;
+	int value;
+	Menu(){
+		price = 0;
+		value = 0;
+	}
+};
+int getMaxMenu(Menu m[20], int menuCount, int budget){
+	int result = 0;
+	for (int i = 0; i < menuCount; i++){
+		if (m[i].price <= budget){
+			result = max(result, m[i].price);
+		}
+	}
+	return result;
+}
 
-입력
+int getMaxValue(Menu m[20], int menuCount, int budget){
+	int result = 0;
+	int maxPrice = getMaxMenu(m, menuCount, budget);
+	if (maxPrice == 0)
+		return 0;
+	int* table = new int[maxPrice + 1];
+	for (int k = 0; k < maxPrice + 1; k++)
+		table[k] = 0;
 
-입력의 첫 줄에는 테스트 케이스의 수 c(1 <= c <= 50)가 주어집니다. 각 테스트 케이스의 첫 줄에는 초밥의 종류 n(1 <= n <= 20)과 운영진들의 예산 m (1 <= m <= 2,147,483,647)이 주어집니다. 그 후 n 줄에 각 초밥의 가격과 선호도가 순서대로 주어집니다. 가격은 20,000 이하의 자연수로, 항상 100 의 배수입니다. 선호도는 20 이하의 자연수입니다.
+	for (int i = 0; i <= budget; i++){
+		int cIndex = i % maxPrice;
+		int maxval = 0;
+		for (int k = 0; k < menuCount; k++){
+			if (m[k].price <= i){///예산이 더클때
+				int prevPrice = i - m[k].price;
+				int prevIndex = prevPrice % maxPrice;
+				if (table[prevIndex] + m[k].value > table[cIndex]){
+					maxval = max(maxval, table[prevIndex] + m[k].value);
+					
+				}
+			}
+		}
+		table[cIndex] = maxval;
+		result = max(result, maxval);
+	}
 
-*/
-//struct 
-
+	delete table;
+	return result;
+}
 
 int main(){
-	int testcase = 0;
-	scanf("%d", &testcase);
-	for (int j = 0; j < testcase; j++){
-		unsigned int categoryCount = 0;
-		unsigned int account = 0;
-		scanf("%u %u", &categoryCount, &account);
-		
-
-
-
+	int testcase;
+	cin >> testcase;
+	for (int i = 0; i < testcase; i++){
+		int cnt, budget;
+		cin >> cnt >> budget;
+		budget /= 100;
+		Menu menu[20];
+		for (int k = 0; k < cnt; k++){
+			cin >> menu[k].price >> menu[k].value;
+			menu[k].price /= 100;
+		}
+		int result = getMaxValue(menu, cnt, budget);
+		cout << result << endl;
 	}
-	
-	
-	return 0;
 
+	return 0;
 }

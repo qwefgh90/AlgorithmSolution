@@ -3,11 +3,16 @@
 #include <queue>
 using namespace std;
 
-//Prim 알고리즘
+//Prim 알고리즘 (간선의 BFS기반 및 힙 기반)
 //1) 임의의 정점과 연결된 간선을 우선순위 큐에 추가한다.
 //2) 우선순위 큐에서 한개의 간선을 뽑은 뒤 "목적지"를 아직 방문하지 않았다면 최소 신장 트리에 추가한다. 이때 간선에 의해 가르켜지는 정점은 방문 체크를한다.
 //3) 가르켜지는 정점과 연결된 간선을 우선순위 큐에 추가하고 2)로 돌아간다.
 //4) 큐가 비워지면 끝
+
+//시간 복잡도
+//V * logV (별모양 그래프인 경우, 방문한 점이라고 하더라도 비교로 확인해봐야 알기때문에 )
+//(E + V) * logV (별모양 그래프면서 각 간선에 가중치에 의존적)
+//E * logV (최종적인 시간복잡도)
 
 class Edge{
 public:
@@ -70,7 +75,9 @@ public:
 			queue.push(e);
 		}
 		
+		int count = 0;
 		while (queue.empty() == false){
+			count++;
 			Edge* e = queue.top();
 			queue.pop();
 			result.v[e->from].visit = true;	//방문 체크

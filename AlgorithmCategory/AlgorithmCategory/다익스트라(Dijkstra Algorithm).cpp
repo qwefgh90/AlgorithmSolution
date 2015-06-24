@@ -6,12 +6,16 @@ using namespace std;
 
 //다익스트라 알고리즘 with 사이클 (Dijkstra Algorithm) 
 //1) 각 정점에 경로의 최소 길이 및 이전 정점 저장 
-//알고리즘
+//알고리즘 (간선의 BFS 기반)
 //1) 시작점을 선택한 뒤 간선을 큐에 넣는다.
 //2) 큐에서 간선을 꺼내온 뒤 타겟 정점의 최소길이와 간선 가중치 + 이전 정점 최소길이를 비교한다.
 //3) 클 경우 아무것도 다음 큐를 탐색한다. (이미 최소 경로가 존재)
 //4) 작을 경우 최소경로 길이로 갱신한뒤 해당 정점의 간선들을 큐에 담고 2)로 돌아간다.
 //5) 큐가 empty가 되면 종료한다.
+
+//다익스트라의 단점 
+//음수 사이클이 있는 그래프에서는 해결할 수 없다.
+//this can't be used in cycle graph with minus value
 
 
 class Edge{
@@ -64,8 +68,9 @@ public:
 			q.push(e);
 			e = e->next;
 		}
-
+		int count = 0;
 		while (q.empty() == false){
+			count++;
 			Edge* e = q.front();	//back()도 있으나 front가 push와 같이 사용됨
 			q.pop();
 			Vert* target = &v[e->to];
@@ -76,7 +81,8 @@ public:
 				//목표 정점의 간선들을 큐에 담음
 				Edge* adjE = target->adjList;
 				while (adjE != NULL){
-					q.push(adjE);
+					if (adjE->to != e->from)
+						q.push(adjE);
 					adjE = adjE->next;
 				}
 			}
@@ -92,6 +98,7 @@ public:
 			result.push_back(prev);
 			prev = v[prev].prevV;
 		}
+		cout << count << endl;
 		return result;
 	}
 };

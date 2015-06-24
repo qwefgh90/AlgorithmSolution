@@ -69,9 +69,6 @@
     <ClCompile Include="SENTENCE.cpp">
       <Filter>구현</Filter>
     </ClCompile>
-    <ClCompile Include="SUSHI.cpp">
-      <Filter>동적계획법</Filter>
-    </ClCompile>
     <ClCompile Include="TREASURE(미완).cpp">
       <Filter>기하</Filter>
     </ClCompile>
@@ -142,8 +139,17 @@
     <ClCompile Include="prim.cpp">
       <Filter>그래프</Filter>
     </ClCompile>
-    <ClCompile Include="다익스트라.cpp">
+    <ClCompile Include="다익스트라%28Dijkstra Algorithm%29.cpp">
       <Filter>그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="cracking_키몸무게탑쌓기.cpp">
+      <Filter>정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="SUSHI_성수.cpp">
+      <Filter>동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="SUSHI.cpp">
+      <Filter>동적계획법</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +180,12 @@
     </Text>
     <Text Include="다익스트라.txt">
       <Filter>그래프</Filter>
+    </Text>
+    <Text Include="SUSHI.txt">
+      <Filter>동적계획법</Filter>
+    </Text>
+    <Text Include="cracking_키몸무게탑쌓기.txt">
+      <Filter>정렬</Filter>
     </Text>
   </ItemGroup>
 </Project>
